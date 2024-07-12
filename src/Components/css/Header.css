@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+
+body {
+  --gradient-light: linear-gradient(to bottom right, #3f45b8, #8f94fb, #a674eb,#74ebd5);
+  --gradient-dark: linear-gradient(to bottom right, #3c1361, #5d2550, #3c1361);
+  background: var(--gradient-light);
+  font-family: "Montserrat", sans-serif;
+  transition: background 0.3s ease; /* Smooth transition for background change */
+}
+
+.dark-mode {
+  background: var(--gradient-dark);
+}
+
+/* Styles for the toggle switch container */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+/* Styles for the visible part of the switch */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the toggle button (moon and sun icons) */
+.slider svg {
+  width: 20px; /* Adjust size of the icon as needed */
+  height: 20px;
+  color: #fff; /* Default icon color */
+}
+
+.slider.dark-mode {
+  background-color: #3d3d3d; /* Dark mode background color */
+}
+
+.slider.dark-mode svg {
+  color: #ccc; /* Dark mode icon color */
+}
+
+.slider.light-mode svg {
+  color: #f1f1f1; /* Light mode icon color */
+}
