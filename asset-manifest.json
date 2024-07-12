@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/.github.io/Notes-App/static/css/main.2e48fcc0.css",
-    "main.js": "/.github.io/Notes-App/static/js/main.65c4cb57.js",
-    "static/js/453.e5531eb8.chunk.js": "/.github.io/Notes-App/static/js/453.e5531eb8.chunk.js",
-    "index.html": "/.github.io/Notes-App/index.html",
-    "main.2e48fcc0.css.map": "/.github.io/Notes-App/static/css/main.2e48fcc0.css.map",
-    "main.65c4cb57.js.map": "/.github.io/Notes-App/static/js/main.65c4cb57.js.map",
-    "453.e5531eb8.chunk.js.map": "/.github.io/Notes-App/static/js/453.e5531eb8.chunk.js.map"
+    "main.css": "/Notes-App/static/css/main.2e48fcc0.css",
+    "main.js": "/Notes-App/static/js/main.c78e07aa.js",
+    "static/js/453.e5531eb8.chunk.js": "/Notes-App/static/js/453.e5531eb8.chunk.js",
+    "index.html": "/Notes-App/index.html",
+    "main.2e48fcc0.css.map": "/Notes-App/static/css/main.2e48fcc0.css.map",
+    "main.c78e07aa.js.map": "/Notes-App/static/js/main.c78e07aa.js.map",
+    "453.e5531eb8.chunk.js.map": "/Notes-App/static/js/453.e5531eb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e48fcc0.css",
-    "static/js/main.65c4cb57.js"
+    "static/js/main.c78e07aa.js"
   ]
 }
